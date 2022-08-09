@@ -137,11 +137,12 @@ ul {
   color: var(--accent-color);
 }
 /* Секція особливості */
-.section-top {
-  padding-top: 94px;
-}
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
+}
+.padding-top-0 {
+  padding-top: 0;
 }
 
 .section-title {
