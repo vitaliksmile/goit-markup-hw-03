@@ -25,6 +25,23 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding: 0 15px;
+  outline: 2px solid red;
+}
+
 /* Шапка */
 .logo {
   text-decoration: none;
@@ -76,16 +93,21 @@ body {
   color: var(--accent-color);
 }
 .hero {
+  text-align: center;
+
   background-color: #2f303a;
 }
-.hero .hero-title {
+.hero-title {
   color: var(--primary--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  outline: 2px solid red;
 }
 /* Button */
 .button {
@@ -98,13 +120,12 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
-.center {
-  display: block;
-  margin: 0 auto;
-}
+
 /* Навігація на інші сторінка */
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link {
   text-decoration: none;
@@ -116,12 +137,20 @@ body {
   color: var(--accent-color);
 }
 /* Секція особливості */
+.section-top {
+  padding-top: 94px;
+}
+.section {
+  padding-bottom: 94px;
+}
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .section .text {
   font-size: 14px;
@@ -133,12 +162,14 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
 }
-.section .title-name {
+.title-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-bottom: 10px;
 }
 .section .name-text {
   font-size: 16px;
@@ -149,6 +180,17 @@ body {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-logo {
+  margin-bottom: 20px;
+}
+.contacts link {
+  margin-bottom: 9px;
+}
+.list-margin {
+  margin-bottom: 9px;
 }
 .list .addres {
   color: var(--primary--white-color);
