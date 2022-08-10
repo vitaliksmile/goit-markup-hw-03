@@ -47,8 +47,6 @@ li {
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
-
-  outline: 2px solid red;
 }
 
 /* Шапка */
@@ -142,8 +140,6 @@ li {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
-
-  outline: 2px solid red;
 }
 /* Button */
 .button {
