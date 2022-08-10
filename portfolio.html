@@ -17,28 +17,28 @@
   </head>
   <body>
     <!-- Шапка -->
-    <header class="header">
-      <div class="container">
+    <header class="header button-line">
+      <div class="container main-nav">
         <a class="logo" href="index.html">
           <span class="logo-web">Web</span><span class="top">Studio</span></a
         >
         <nav>
           <!-- Навігація на інші сторінки -->
           <ul class="site-nav list">
-            <li><a class="link" href="./index.html">Студія</a></li>
-            <li>
+            <li class="item"><a class="link" href="./index.html">Студія</a></li>
+            <li class="item">
               <a class="link current" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li><a class="link" href="">Контакти</a></li>
+            <li class="item"><a class="link" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li>
+          <li class="item">
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -47,24 +47,31 @@
     <!-- Унікальний контент сторінки -->
     <main>
       <section class="projects section">
-        <h1>Портфоліо</h1>
+        <h1 class="visually-hidden">Портфоліо</h1>
         <!-- Фільтр -->
         <ul class="filter list">
-          <li><button class="filter-button" type="button">Усі</button></li>
-          <li>
+          <li class="item">
+            <button class="filter-button" type="button">Усі</button>
+          </li>
+          <li class="item">
             <button class="filter-button" type="button">Веб-сайти</button>
           </li>
-          <li><button class="filter-button" type="button">Додатки</button></li>
-          <li><button class="filter-button" type="button">Дизайн</button></li>
-          <li>
+          <li class="item">
+            <button class="filter-button" type="button">Додатки</button>
+          </li>
+          <li class="item">
+            <button class="filter-button" type="button">Дизайн</button>
+          </li>
+          <li class="item">
             <button class="filter-button" type="button">Маркетинг</button>
           </li>
         </ul>
         <!-- Проекти -->
         <div class="container">
           <ul class="projects list">
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project1.jpg"
                 width="370"
                 alt="project1"
@@ -72,8 +79,9 @@
               <h2 class="projects-title">Технокряк</h2>
               <p class="text">Веб-сайт</p>
             </li>
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project2.jpg"
                 width="370"
                 alt="project2"
@@ -81,8 +89,9 @@
               <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
               <p class="text">Дизайн</p>
             </li>
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project3.jpg"
                 width="370"
                 alt="project3"
@@ -90,8 +99,9 @@
               <h2 class="projects-title">Ресторан Seafood</h2>
               <p class="text">Додаток</p>
             </li>
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project4.jpg"
                 width="370"
                 alt="project4"
@@ -99,8 +109,9 @@
               <h2 class="projects-title">Проєкт Prime</h2>
               <p class="text">Маркетинг</p>
             </li>
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project5.jpg"
                 width="370"
                 alt="project5"
@@ -108,8 +119,9 @@
               <h2 class="projects-title">Проєкт Boxes</h2>
               <p class="text">Додаток</p>
             </li>
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project6.jpg"
                 width="370"
                 alt="project6"
@@ -117,8 +129,9 @@
               <h2 class="projects-title">Inspiration has no Borders</h2>
               <p class="text">Веб-сайт</p>
             </li>
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project7.jpg"
                 width="370"
                 alt="project7"
@@ -126,8 +139,9 @@
               <h2 class="projects-title">Видання Limited Edition</h2>
               <p class="text">Дизайн</p>
             </li>
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project8.jpg"
                 width="370"
                 alt="project8"
@@ -135,8 +149,9 @@
               <h2 class="projects-title">Проект LAB</h2>
               <p class="text">Маркетинг</p>
             </li>
-            <li>
+            <li class="item-projects">
               <img
+                class="pictures"
                 src="./images/portfolio/project9.jpg"
                 width="370"
                 alt="project9"
@@ -173,7 +188,7 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="list-margin">
               <a class="contacts link" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >

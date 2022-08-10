@@ -18,25 +18,29 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <div class="container">
+      <div class="container main-nav">
         <a class="logo" href="index.html">
           <span class="logo-web">Web</span><span class="top">Studio</span></a
         >
         <nav>
           <!-- Навігація на інші сторінки -->
           <ul class="site-nav list">
-            <li><a class="link current" href="./index.html">Студія</a></li>
-            <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
-            <li><a class="link" href="">Контакти</a></li>
+            <li class="item">
+              <a class="link current" href="./index.html">Студія</a>
+            </li>
+            <li class="item">
+              <a class="link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="item"><a class="link" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li>
+          <li class="item">
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -52,30 +56,30 @@
       <!-- Особливості-->
       <section class="section section-top">
         <div class="container">
-          <h2>Особливості</h2>
-          <ul class="list">
-            <li>
+          <h2 class="visually-hidden">Особливості</h2>
+          <ul class="list decorate-features">
+            <li class="item">
               <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="section-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="section-title">ПЛАНУВАННЯ</h3>
               <p class="text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -89,15 +93,30 @@
       <section class="section padding-top-0">
         <div class="container">
           <h2 class="section-title-big">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
-              <img src="./images/main-page/box1.jpg " width="370" alt="box 1" />
+          <ul class="list we-do-decorate">
+            <li class="item">
+              <img
+                class="pictures"
+                src="./images/main-page/box1.jpg "
+                width="370"
+                alt="box 1"
+              />
             </li>
-            <li>
-              <img src="./images/main-page/box2.jpg" width="370" alt="box 2" />
+            <li class="item">
+              <img
+                class="pictures"
+                src="./images/main-page/box2.jpg"
+                width="370"
+                alt="box 2"
+              />
             </li>
-            <li>
-              <img src="./images/main-page/box3.jpg" width="370" alt="box 3" />
+            <li class="item">
+              <img
+                class="pictures"
+                src="./images/main-page/box3.jpg"
+                width="370"
+                alt="box 3"
+              />
             </li>
           </ul>
         </div>
@@ -106,9 +125,10 @@
       <section class="section section-top">
         <div class="container">
           <h2 class="section-title-big">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="list decorate-team">
+            <li class="item">
               <img
+                class="pictures"
                 src="./images/main-page/img.jpg"
                 width="270"
                 alt="Ігор Дем'яненко"
@@ -116,8 +136,9 @@
               <h3 class="title-name">Ігор Дем'яненко</h3>
               <p class="name-text">Product Designer</p>
             </li>
-            <li>
+            <li class="item">
               <img
+                class="pictures"
                 src="./images/main-page/img(1).jpg"
                 width="270"
                 alt="Ольга Рєпіна"
@@ -125,8 +146,9 @@
               <h3 class="title-name">Ольга Рєпіна</h3>
               <p class="name-text">Frontend Developer</p>
             </li>
-            <li>
+            <li class="item">
               <img
+                class="pictures"
                 src="./images/main-page/img(2).jpg"
                 width="270"
                 alt="Микола Тарасов"
@@ -134,8 +156,9 @@
               <h3 class="title-name">Микола Тарасов</h3>
               <p class="name-text">Marketing</p>
             </li>
-            <li>
+            <li class="item">
               <img
+                class="pictures"
                 src="./images/main-page/img(3).jpg"
                 width="270"
                 alt="Михайло Єрмаков"
@@ -172,7 +195,7 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="list-margin">
               <a class="contacts link" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
