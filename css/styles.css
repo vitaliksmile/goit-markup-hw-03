@@ -133,7 +133,7 @@ li {
 }
 .section-hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--primary--white-color);
@@ -289,8 +289,6 @@ li {
 .filter.list {
   display: flex;
   justify-content: center;
-}
-.filter.list .item {
   margin-bottom: 50px;
 }
 
